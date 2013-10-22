@@ -1,5 +1,3 @@
 y = 0
-1000.times do |x|
-	y = y + x if ( x % 3 == 0  || x % 5 == 0 )
-end
+1000.times { |x| y = y + x if ( x % 3 == 0  || x % 5 == 0 ) }
 puts y
